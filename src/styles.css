@@ -117,12 +117,11 @@ section.top-6 div.card-recipe div.text-card p{
 }
 
 footer{
+    position: absolute;
+    width: 120%;
     clear: both;
     margin-top: 50px;
     background-color: #EEEEEE;
-    width: 119%;
-    height: 120%;
-    padding: 10px;
 }
 
 footer div p{

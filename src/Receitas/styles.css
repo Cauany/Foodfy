@@ -1,0 +1,90 @@
+body{
+    position: absolute;
+}
+
+header, nav, section{
+    margin-left: 170px;
+}
+
+div.div-main{
+    margin-bottom: 50px;
+}
+header div.logo img{
+    width: 90px;
+    height: 26px;
+    margin-top: 38px;
+}
+
+nav.main{
+    text-align: center;
+}
+
+nav.main ul{
+    position: absolute;
+    top: 4.1vh;
+    left: 26.7%;
+}
+
+nav.main ul li{
+    display: inline-block;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 30px;
+    color: #111;
+    line-height: 16px;
+}
+
+nav.main ul li a{
+    text-decoration: none;
+    color: #111;
+    cursor: pointer;
+}
+
+nav.main ul li a:hover{
+    color: rgb(253, 156, 141);
+    opacity: 0.3;
+    transition: 600ms;
+}
+
+
+section.top-6 div.card-recipe div.img-card img{
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+section.top-6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+section.top-6 div.card-recipe div.text-card h3{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    color: #111111;
+    line-height: 21px;
+}
+section.top-6 div.card-recipe div.text-card p{
+    font-family: 'Roboto-Regular';
+    font-size: 14px;
+    color: #777777;
+    line-height: 16px;
+}
+
+footer{
+    position: absolute;
+    width: 120%;
+    clear: both;
+    margin-top: 50px;
+    background-color: #EEEEEE;
+}
+
+footer div p{
+    clear: both;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
