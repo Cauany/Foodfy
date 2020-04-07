@@ -1,0 +1,95 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+<div class="content">
+   <section class="topic">
+       <div class="text-topic">
+           <h1> As melhores receitas </h1>
+           <p> Aprenda a construir os melhores pratos com receitas criadas por profissionais do mundo inteiro</p>
+       </div>
+       <div class="img-topic">
+           <img src="/assets/chef.png" alt="">
+       </div>
+   </section>
+   
+   <h2> Mais acessadas</h2>
+
+   <section class="top-6">
+       
+        <div class="card-recipe" id="burger">
+            <div class="img-card">
+                <img src="/assets/burger.png" alt="Triplo bacon burger">
+            </div>
+            <div class="text-card">
+                <h3> Triplo bacon burger</h3>
+                <p> por Jorge Relato</p>
+            </div>
+        </div>
+
+        <div class="card-recipe" id="pizza">
+            <div class="img-card">
+                <img src="/assets/pizza.png" alt="Pizza 4 estações">
+            </div>
+            <div class="text-card">
+                <h3> Pizza 4 estações </h3>
+                <p> por Fabiana Melo</p>
+            </div>
+        </div>
+
+        <div class="card-recipe" id="espaguete">
+            <div class="img-card">
+                <img src="/assets/espaguete.png" alt="Espaguete ao alho">
+            </div>
+            <div class="text-card">
+                <h3> Espaguete ao alho </h3>
+                <p> por Júlia Kinoto</p>
+            </div>
+        </div>
+
+        <div class="card-recipe" id="lasanha">
+            <div class="img-card">
+                 <img src="/assets/lasanha.png" alt="Triplo bacon burger">
+            </div>
+            <div class="text-card">
+                 <h3> Lasanha mac n’ cheese </h3>
+                 <p> por Juliano Vieira</p>
+            </div>
+        </div>
+ 
+        <div class="card-recipe" id="doce">
+            <div class="img-card">
+                 <img src="/assets/doce.png" alt="Pizza 4 estações">
+            </div>
+            <div class="text-card">
+                <h3> Docinhos pão-do-céu </h3>
+                <p> por Ricardo Golvea </p>
+            </div>
+                 
+         </div>
+ 
+         <div class="card-recipe" id="asinhas">
+             <div class="img-card">
+                 <img src="/assets/asinhas.png" alt="Espaguete ao alho">
+             </div>
+            <div class="text-card">
+                 <h3> Asinhas de frango ao barbecue </h3>
+                 <p> por Vania Steroski </p>
+            </div>
+         </div>
+    </section>
+</div> 
+    <div class="modal-overlay">
+        <div class="modal">
+            <a class="close-modal">
+                <i class="material-icons">close</i>
+            </a>
+
+            <div class="modal-content">
+                <iframe src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="/scripts.js"></script>
+{% endblock %}

@@ -1,0 +1,248 @@
+/* ===== STYLE INDEX =====*/
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+div.content{
+    margin-left: 15%;
+}
+
+header div.logo{
+    width: 90px;
+    margin-top: 38px;
+    margin-left: 15%;
+}
+
+nav.main{
+    text-align: center;
+    margin-top: -26px;
+    margin-left: -20%;
+}
+
+nav.main ul li{
+    display: inline-block;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 30px;
+    color: #111;
+    line-height: 16px;
+}
+
+nav.main ul li a{
+    text-decoration: none;
+    color: #111;
+    cursor: pointer;
+}
+
+nav.main ul li a:hover{
+    color: rgb(253, 156, 141);
+    opacity: 0.3;
+    transition: 600ms;
+}
+
+section.topic{
+    background-color: #FBDFDB;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 990px;
+    height: 366px;
+    margin-top: 36px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+section div.text-topic{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+section div.text-topic h1{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+section div.text-topic p{
+    font-family: 'Roboto-Regular', sans-serif;
+    color: black;
+    opacity: 0.7;
+    line-height: 28px;
+    font-size: 18px;
+    width: 316px;
+    height: 84px;
+}
+
+section div.img-topic{
+    width: 216px;
+    height: 300px;
+    margin-left: 170px;
+    margin-top: 66px;
+}
+
+h2{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 24px;
+    color: #111111;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+div.title-about h2{
+    margin-top: 20px;
+}
+
+section.text-section div h1{
+    margin-bottom: 20px;
+}
+
+section.top-6 div.card-recipe{
+    cursor: pointer;
+}
+
+section.top-6 div.card-recipe div.img-card img{
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+section.top-6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 10%;  
+    gap: 10px;
+}
+
+section.top-6 div.card-recipe div.text-card h3{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    color: #111111;
+    line-height: 21px;
+}
+
+section.top-6 div.card-recipe div.text-card p{
+    font-family: 'Roboto-Regular';
+    font-size: 14px;
+    color: #777777;
+    line-height: 16px;
+}
+
+/* ===== STYLE ABOUT =====*/
+section.text-section{
+    margin-top: 50px;
+    margin-right: 130px;
+    text-align: justify;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+section.text-section h1{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 24px;
+    color: #111111;
+    line-height: 28px;
+}
+
+section.text-section h2{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 20px;
+    color: #111111;
+    line-height: 24px;
+}
+
+/* ===== STYLE RECIPE =====*/
+section.top{
+    margin-top: 50px;
+}
+
+section.top div.card-recipe div.img-card img{
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+section.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+section.top div.card-recipe div.text-card h3{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    color: #111111;
+    line-height: 21px;
+}
+
+section.top div.card-recipe div.text-card p{
+    font-family: 'Roboto-Regular';
+    font-size: 14px;
+    color: #777777;
+    line-height: 16px;
+}
+
+/* =====MODAL======*/
+.modal-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal{
+    background-color: white;
+    width: 60%;
+    height: 80%;
+    margin: 5vh auto;
+    position: relative;
+}
+
+.modal .close-modal{
+    color: black;
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.modal .close-modal:hover{
+    background-color: red;
+    opacity: 0.6px;
+    transition: 600ms;
+}
+.modal-overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* =====IFRAME======*/
+iframe{
+    width: 100%;
+    height: 92.8%;
+    position: absolute;
+    top: 7%;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #EEEEEE;
+}
+
+footer div p{
+    padding: 10px;
+    clear: both;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
