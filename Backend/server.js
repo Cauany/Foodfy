@@ -39,7 +39,6 @@ server.get('/recipe', function(req, res){
 })
 
 server.get('/recipeDetail', function(req, res){
-<<<<<<< HEAD
     const id = req.query.id
 
     const detail = recipes.find(function(recipes){
@@ -53,13 +52,6 @@ server.get('/recipeDetail', function(req, res){
     }
 
     return res.render('detail', { item : detail })
-=======
-    return res.render('recipe_detail')
-})
-
-server.get('/detail', function(req, res){
-    return res.render('detail')
->>>>>>> eb8876ee71ccc9122aede0bdb5db0b1bd0c24d8c
 })
 
 server.listen(5000, function(){
