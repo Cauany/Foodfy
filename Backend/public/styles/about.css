@@ -1,0 +1,29 @@
+section.text-section{
+    margin-top: 50px;
+    margin-right: 130px;
+    text-align: justify;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+section.text-section div.title-about{
+    margin-bottom: 50px;
+}
+
+section.text-section h1{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 24px;
+    color: #111111;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+section.text-section h2{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 20px;
+    color: #111111;
+    line-height: 24px;
+    margin-bottom: 10px;
+}

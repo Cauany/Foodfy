@@ -1,45 +1,51 @@
 {% extends "layout.njk" %}
 
+{% block style %}
+    <link rel="stylesheet" href="/styles/detail.css">
+{% endblock style %}
+
 {% block content %}
+    <div class="content">
+        <section>
+            <div id="{{item.id}}">
 
-<div class="content">
-    <section>
-        <div id="{{item.id}}">
-            <div class="content-recipe-detail">
-                <img src="{{item.image}}" alt="Imagem de {{item.image}}">
-                <p class="text-1"> {{item.title}} </p>
-                <p class="text-2"> por {{item.author}} </p>
+                <div class="content-recipe-detail">
+                    <img src="{{item.image}}" alt="Imagem de {{item.image}}">
+                    <p class="text-1"> {{item.title}} </p>
+                    <p class="text-2"> por {{item.author}} </p>
+                </div>
+
+                <div class="content-recipe-flex">
+                    <div class="content-button">
+                        <div>
+                            <h2> Ingredientes </h2>
+                            <button> Mostrar </button>
+                        </div>
+                        <p class="content-global ingredients">
+                            {{item.ingredients}} 
+                        </p>
+                    </div>
+
+                    <div class="content-button">
+                        <div>
+                            <h2> Modo de preparo </h2>
+
+                            <button class="two"> Mostrar </button>
+                        </div>
+                        <p class="content-global prepare"> {{item.preparation}} </p>
+                    </div>
+
+                    <div class="content-button">
+                        <div>
+                            <h2> Informações adicionais </h2>
+                            <button> Mostrar </button>
+                        </div>
+                        <p class="content-global information"> {{item.information}} </p>
+                    </div>
+                </div>
             </div>
+        </section>
+    </div>
 
-            <div class="content-button" id="one">
-                <h2> Ingredientes </h2>
-
-                <button class="one"> Mostrar </button>
-
-                <p class="content-global ingredients">
-                    {{item.ingredients}} 
-                </p>
-            </div>
-
-            <div class="content-button" id="two">
-                <h2> Modo de preparo </h2>
-
-                <button class="two"> Mostrar </button>
-
-                <p class="content-global prepare"> {{item.preparation}} </p>
-            </div>
-
-            <div class="content-button" id="three">
-                <h2> Informações adicionais </h2>
-
-                <button class="three"> Mostrar </button>
-
-                <p class="content-global information"> {{item.information}} </p>
-            </div>
-        
-        </div>
-    </section>
-</div>
-
-<script src="/test.js"></script>
+    <script src="/scripts/detail.js"></script>
 {% endblock %}

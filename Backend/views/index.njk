@@ -1,5 +1,9 @@
 {% extends "layout.njk" %}
 
+{% block style %}
+    <link rel="stylesheet" href="/styles/index.css">
+{% endblock style %}
+
 {% block content %}
 
 <div class="content">
@@ -16,7 +20,7 @@
    <h2> Mais acessadas</h2>
 
    <section class="top-6">
-       
+
         <div class="card-recipe" id="burger">
             <div class="img-card">
                 <img src="/assets/burger.png" alt="Triplo bacon burger">
@@ -73,23 +77,25 @@
                  <img src="/assets/asinhas.png" alt="Espaguete ao alho">
              </div>
             <div class="text-card">
-                 <h3 id="asinha"> Asinhas de frango ao barbecue </h3>
+                 <h3> Asinhas de frango ao barbecue </h3>
                  <p> por Vania Steroski </p>
             </div>
          </div>
     </section>
+
 </div> 
+
     <div class="modal-overlay">
         <div class="modal">
             <a class="close-modal">
                 <i class="material-icons">close</i>
             </a>
             <div class="img-card">
-                <img src="{{id}}" alt="Imagem de {{id}}">
+                <img src="" alt="">
             </div>
             <a href="" class="but"> Ver mais detalhes </a>
         </div>
     </div>
 
-    <script src="/scripts.js"></script>
+    <script src="scripts/modal.js"></script>
 {% endblock %}
