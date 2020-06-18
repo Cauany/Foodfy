@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Foodfy Gif" src="/Backend/public/assets/Foodfy.gif" width="600px" />
+    <img alt="Foodfy Gif" src="/Backend/public/assets/Foodfy.gif" width="800px" />
 </h1>
 
 # Foody
