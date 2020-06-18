@@ -73,8 +73,8 @@
 }
 
 /* =====CONTENT ACTIVE======*/
-.content-global.active{
-    transition: 900ms;
+.active{
     opacity: 1;
     visibility: visible;
+    transition: 900ms;
 }
