@@ -19,7 +19,7 @@
                     <div class="content-button">
                         <div>
                             <h2> Ingredientes </h2>
-                            <button id='one'> Mostrar </button>
+                            <button id='one' value="Mostrar"> Mostrar </button>
                         </div>
                         <p class="content-global ingredients" id='one'>
                             {{item.ingredients}} 
@@ -29,18 +29,21 @@
                     <div class="content-button">
                         <div>
                             <h2> Modo de preparo </h2>
-
-                            <button id='two'> Mostrar </button>
+                            <button id='two' value="Mostrar"> Mostrar </button>
                         </div>
-                        <p class="content-global prepare" id='two'> {{item.preparation}} </p>
+                        <p class="content-global prepare" id='two'>
+                            {{item.preparation}}
+                        </p>
                     </div>
 
                     <div class="content-button">
                         <div>
                             <h2> Informações adicionais </h2>
-                            <button id='three'> Mostrar </button>
+                            <button id='three' value="Mostrar"> Mostrar </button>
                         </div>
-                        <p class="content-global information" id="three"> {{item.information}} </p>
+                        <p class="content-global information" id="three">
+                            {{item.information}}
+                        </p>
                     </div>
                 </div>
             </div>

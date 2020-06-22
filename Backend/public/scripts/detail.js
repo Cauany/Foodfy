@@ -8,33 +8,51 @@ for(let button of buttons){
         const text3 = document.querySelector('div.content-button p#three')
         
         const btn = button.getAttribute('id')
+        const state = button.getAttribute('value')
 
-        if(btn == 'one'){
-            showText1()
-            button.textContent = 'Esconder'
-        }
-        
-        if(btn == 'two'){
-            showText2()
-            button.textContent = 'Esconder'
-        }
-        
-        if(btn == 'three'){
-            showText3()
-            button.textContent = 'Esconder'
+        function OnclickButton(){
+            verifyButtonId()
+
+            function verifyButtonId(){
+                    if(btn == 'one'){
+                        showText1()
+                        VerifyStateButton()
+                    }
+                    
+                    if(btn == 'two'){
+                        showText2()
+                        VerifyStateButton()
+                    }
+                    
+                    if(btn == 'three'){
+                        showText3()
+                        VerifyStateButton()
+                    } 
+            }
+
+            function showText1(){
+                text1.classList.toggle('active')
+            }
+
+            function showText2(){
+                text2.classList.toggle('active')
+            }
+
+            function showText3(){
+                text3.classList.toggle('active')
+            }
+
+            function VerifyStateButton(){
+                if(state == 'Mostrar'){
+                    button.textContent = 'Esconder'
+                    button.setAttribute('value', 'Esconder')
+                }else if(state == 'Esconder'){
+                    button.textContent = 'Mostrar'
+                    button.setAttribute('value', 'Mostrar')
+                }
+            }
         }
 
-        function showText1(){
-            text1.classList.toggle('active')
-        }
-
-        function showText2(){
-            text2.classList.toggle('active')
-        }
-
-        function showText3(){
-            text3.classList.toggle('active')
-        }
-
+        OnclickButton()
     }    
 }
