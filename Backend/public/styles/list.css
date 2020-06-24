@@ -1,7 +1,29 @@
-header{
-    background-color: coral;
+div.content-total{
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 5px;
 }
 
-div.content{
-    background-color: cornflowerblue;
+div.content-total div.logo{
+    margin-top: 15px;
+}
+
+div.content-total nav.main{
+   margin-top: 15px;
+   margin-left: 35%;
+}
+
+div.content-total nav.main ul li a{
+    color: white;
+}
+
+div.content-total nav.main ul li a:hover{
+    color: rgb(253, 156, 141);
+    transition: 600ms;
+    opacity: 0.8;
 }

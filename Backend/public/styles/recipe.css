@@ -1,3 +1,10 @@
+
+nav.main ul li a:hover{
+    color: rgb(253, 156, 141);
+    opacity: 0.3;
+    transition: 600ms;
+}
+
 section.top{
     margin-top: 50px;
 }

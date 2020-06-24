@@ -1,3 +1,33 @@
+nav.main ul li a:hover{
+    color: rgb(253, 156, 141);
+    opacity: 0.3;
+    transition: 600ms;
+}
+
+header nav.main ul li#admin{
+    position: relative;
+}
+
+header nav.main ul li#admin a{
+    position: absolute;
+    color: rgba(15, 15, 15, 0.671);
+    top: -11px;
+    right: -575px;
+}
+
+header nav.main ul li#admin a:hover{
+    opacity: 0.5;
+    transition: 700ms;
+}
+
+header nav ul li#admin img{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -14px;
+    right: -520px;
+}
+
 section.topic{
     background-color: #FBDFDB;
     display: grid;
