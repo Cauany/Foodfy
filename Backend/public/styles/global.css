@@ -49,6 +49,11 @@ nav.main ul li a:hover{
     transition: 600ms;
 }
 
+header nav ul li:last-child a{
+    color: red;
+}
+
+
 /* =====RODAPÉ======*/
 footer{
     clear: both;
