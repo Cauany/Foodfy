@@ -4,6 +4,25 @@
     <link rel="stylesheet" href="/styles/recipe.css">
 {% endblock style %}
 
+{% block header %}
+    <div class="logo">
+        <a href="/">
+            <img src="/assets/logo.png" alt="Logo Foodfy">
+        </a> 
+    </div>
+
+    <nav class="main">
+        <ul>
+            <li>
+                <a href="/about"> Sobre </a>
+            </li>
+            <li>
+                <a href="/recipe"> Receitas </a>
+            </li>
+        </ul>
+    </nav>
+{% endblock header %}
+
 {% block content %}
 <div class="content">
    <section class="top">

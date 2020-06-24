@@ -1,0 +1,39 @@
+{% extends "layout.njk" %}
+
+{% block style %}
+    <link rel="stylesheet" href="/styles/list.css">
+{% endblock style %}
+
+{% block header %}
+    <div class="logo">
+        <a href="/">
+            <img src="/assets/logo-admin.png" alt="Logo Foodfy">
+        </a> 
+    </div>
+
+    <nav class="main">
+        <ul>
+            <li>
+                <a href="/"> Página Inicial </a>
+            </li>
+            <li>
+                <a href="/about"> Sobre </a>
+            </li>
+            <li>
+                <a href="/recipe"> Receitas </a>
+            </li>
+
+            {% block listMain %}
+                
+            {% endblock listMain %}
+        </ul>
+    </nav>
+{% endblock header %}
+
+{% block content %}
+    <div class="content">
+        eu
+    </div>
+{% endblock content %}
+
+<script src="/scripts/menulist.js"></script>
