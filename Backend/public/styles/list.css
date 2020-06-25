@@ -49,7 +49,8 @@ h2{
     letter-spacing: 1.8px;
 }
 
-.button-add:hover{
+.button-add:hover, 
+div.content-text a:hover{
     opacity: 0.8;
     transition: 900ms;
 }
