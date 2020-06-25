@@ -3,8 +3,8 @@ const buttons = document.querySelectorAll('div.content-button div button')
 for(let button of buttons){
     
     button.onclick = (event) => {
-        const text1 = document.querySelector('div.content-button p#one')
-        const text2 = document.querySelector('div.content-button p#two')
+        const text1 = document.querySelector('div.content-button ul#one')
+        const text2 = document.querySelector('div.content-button ul#two')
         const text3 = document.querySelector('div.content-button p#three')
         
         const btn = button.getAttribute('id')

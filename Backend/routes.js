@@ -35,4 +35,12 @@ routes.get('/managementRecipe', function(req, res){
     res.render('list.njk', { recipes })
 })
 
+routes.get('/managementRecipe/detail', function(req, res){
+    res.render('show.njk', { recipes })
+})
+
+routes.get('/managementRecipe/create', function(req, res){
+    res.render('create.njk')
+})
+
 module.exports = routes

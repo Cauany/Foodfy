@@ -36,6 +36,24 @@ h2{
     color: #111111;
 }
 
+.button-add{
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-left: 200px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #6558C3;
+    color: white;
+    box-shadow: 1px 1.5px 3px grey;
+    letter-spacing: 1.8px;
+}
+
+.button-add:hover{
+    opacity: 0.8;
+    transition: 900ms;
+}
+
 section.content-recipes{
    margin: 30px 200px;
    display: grid;

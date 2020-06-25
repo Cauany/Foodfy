@@ -78,6 +78,14 @@ nav.main ul li a:hover{
     margin-bottom: 50px;
 }
 
+div.content-button ul.content-global .ingredients li{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 36px;
+    color: #111111;
+    line-height: 42px;
+    font-weight: bold;
+}
+
 /* =====CONTENT ACTIVE======*/
 .active{
     opacity: 1;

@@ -40,9 +40,13 @@
                             <h2> Ingredientes </h2>
                             <button id='one' value="Mostrar"> Mostrar </button>
                         </div>
-                        <p class="content-global ingredients" id='one'>
-                            {{item.ingredients}} 
-                        </p>
+                        <ul class="content-global ingredients" id='one'>
+                                {% for ingredient in item.ingredients %}
+                                    <li>
+                                       - {{ingredient}} 
+                                    </li>
+                                {% endfor %}
+                        </ul>
                     </div>
 
                     <div class="content-button">
@@ -50,9 +54,13 @@
                             <h2> Modo de preparo </h2>
                             <button id='two' value="Mostrar"> Mostrar </button>
                         </div>
-                        <p class="content-global prepare" id='two'>
-                            {{item.preparation}}
-                        </p>
+                        <ul class="content-global prepare" id='two'>
+                                {% for preparation in item.preparation %}
+                                    <li>
+                                       - {{preparation}} 
+                                    </li>
+                                {% endfor %}
+                        </ul>
                     </div>
 
                     <div class="content-button">

@@ -46,6 +46,9 @@ nav.main ul li a{
     cursor: pointer;
 }
 
+ul{
+    list-style: none;
+}
 /* =====RODAPÉ======*/
 footer{
     margin-top: 20px;
