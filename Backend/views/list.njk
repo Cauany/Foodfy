@@ -33,9 +33,20 @@
 {% endblock header %}
 
 {% block content %}
-    <div class="content">
-        eu
-    </div>
+    <h2> Gerenciar receitas</h2>
+
+    <section class="content-recipes">
+        {% for recipe in recipes %}
+            <div class="content-list">
+                <img src="{{recipe.image}}" alt=" Imagem de {{recipe.title}}">
+                <div class="content-text">
+                    <h3> {{recipe.title}} </h3>
+                    <p> por {{recipe.author}} </p>
+                    <a href="#"> visualizar </a>
+                </div>
+            </div>
+        {% endfor %}
+    </section>
 {% endblock content %}
 
 <script src="/scripts/menulist.js"></script>

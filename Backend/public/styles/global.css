@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 /* ===== STYLE GLOBAL=====*/
 *{
     margin: 0;
@@ -46,9 +48,8 @@ nav.main ul li a{
 
 /* =====RODAPÉ======*/
 footer{
-    clear: both;
+    margin-top: 20px;
     width: 100%;
-    margin-top: 50px;
     background-color: #EEEEEE;
 }
 

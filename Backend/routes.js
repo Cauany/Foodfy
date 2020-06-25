@@ -32,7 +32,7 @@ routes.get('/recipeDetail', function(req, res){
 })
 
 routes.get('/managementRecipe', function(req, res){
-    res.render('list.njk')
+    res.render('list.njk', { recipes })
 })
 
 module.exports = routes
