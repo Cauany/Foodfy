@@ -12,12 +12,7 @@ Uma aplicação web de receitas online. Que faz o cadastro de novas receitas e r
 
 Abra o terminal do seu PC, seja ele Linux, Mac ou Windows. Se preferir, use o Git Bash, onde quiser salvar o repositório.
 
--  Crie um novo reposirório  usando o comando a seguir:
-    ```sh
-    $ cd backend
-    $ git init
-    ```
-- Copie o comando abaixo e cole, para clonar todos os arquivos em seu computador.
+- Copie o comando abaixo e cole, para clonar o repositorio em seu computador.
     ```sh
     $ git clone https://github.com/Cauany/Foodfy.git
     ```
