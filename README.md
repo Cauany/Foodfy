@@ -18,9 +18,9 @@ Abra o terminal do seu PC, seja ele Linux, Mac ou Windows. Se preferir, use o Gi
     ```
 - Entre na pasta rodando pelo terminal e instale todas as dependências, com o código abaixo:
     ```sh
-    $ npm i
+    $ npm install
     ```
-- Em seguida para iniciar o servidor de desenvolvimento, usa o código abaixo:
+- Em seguida para iniciar o servidor de desenvolvimento na pasta Backend, usa o código abaixo:
     ```sh
     $ npm start
     ```
